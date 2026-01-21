@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cab Booking</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Cab Booking</h1>
+<form onsubmit="return bookCab()">
+<input type="text" id="name" placeholder="Name">
+<input type="text" id="pickup" placeholder="Pickup">
+<input type="text" id="drop" placeholder="Drop">
+<select id="cabType">
+<option value="">Cab Type</option>
+<option value="Mini">Mini</option>
+<option value="Sedan">Sedan</option>
+<option value="SUV">SUV</option>
+</select>
+<input type="number" id="distance" placeholder="Distance">
+<button type="submit">Book</button>
+</form>
+<div id="result"></div>
+<script src="index.js"></script>
+</body>
+</html>
