@@ -1,0 +1,12 @@
+employees={
+ 1001:"Ramesh",1002:"Suresh",1003:"Rajesh"
+}
+print(employees)
+print(employees[1002])
+print(employees.keys())
+print(employees.values())
+employees[1005]="Shilpa"
+employees[1001]='Rakesh'
+employees[1005]='Rakesh'
+print(employees)
+len(employees)
